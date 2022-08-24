@@ -1,0 +1,36 @@
+                                                                                        
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>     
+        <title>Login - Mirror DB</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    </head>
+
+    <body onload="check()">
+        <div class="paralax"></div>
+
+        <div id="page-container">
+            <h1>Log In</h1>
+            <div id="login-box">
+                <a href="about.html">What is mirror?</a>
+
+                <form name="login-form" action="login.php" method="post">
+                    <input autocomplete="off" name="ip_address" style="margin-top:50px;" class="login-field" type="text" placeholder="Enter DB IP"/>
+                    <br/>
+                    <input autocomplete="off" name="db" class="login-field" type="text" placeholder="Enter DB Name"/>
+                    <br/>
+                    <input autocomplete="off" name="username" class="login-field" type="text" placeholder="Enter Username"/>
+                    <br/> 
+                    <input name="password" class="login-field" type="password" placeholder="Enter Password"/>
+                    <br/>
+                    <input id="login-button" type="submit" value=">"/>
+                </form>
+                <h3 id="error" class="error-msg"></h3>
+            </div>
+        </div>
+    </body>
+
+</html>
