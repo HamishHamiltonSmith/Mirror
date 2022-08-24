@@ -1,0 +1,45 @@
+                                                                                        
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>     
+        <title>Home - Mirror DB</title>
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    </head>
+
+
+    <body>
+        <div class="paralax" style="min-height:500px;background-image: url('assets/welcome_banner.png');"></div>
+        <div style="height: 1000px;" id="page-container">
+
+            <h1 id="dbName" style="font-size:50px;"></h1>
+
+            <br/>
+
+            <div id="table_results">
+                <div class="table_head">
+                    <h1 style="color:white">Name - NumRows</h1>
+                </div>
+
+                <h1 id="msg">No tables found</h1> 
+            </div>
+
+            <br/>
+
+            <form action="command.php" method="post">
+                <input autocomplete="off" type="text" name="command" id="submit_command" placeholder="Enter command"/>
+                <br/>
+                <input type="submit" id="login-button" value="RUN"/>
+            </form>
+
+            <br/>
+
+            <div class="info_display">
+                <h1 id="query_results"></h1>
+            </div>
+        </div>
+    </body>
+
+</html>
