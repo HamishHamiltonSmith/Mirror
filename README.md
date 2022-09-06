@@ -2,7 +2,7 @@
 
 ![Image](https://github.com/HamishHamiltonSmith/Mirror/blob/main/examples/Screenshot%202022-08-24%2020.56.55.png)
 
-Mirror is a small site where you can remotely access SQL-based databases, with this connection you are able to view and manage the databse from your browser. Make sure you only use this service with https. The site is currently down for maintenence as of August 2022 but usually you can access it with the url: https://mirror-2c43c.web.app/. If the site is down, its code is avaidable in the repository and interpriter-ready or there are some snapshots below.
+Mirror is a small site where you can remotely access SQL-based databases, with this connection you are able to view and manage the databse from your browser. Make sure you only use this service with https. The site is currently not hosted, however all code is avaidable in the repository and interpriter-ready so you can still use the service, or, there are some snapshots below.
 
 ## Getting started
 
